@@ -18,7 +18,7 @@
   </div>
 
     <!-- TEMPLATE -->
-    <script id="entry-template" type="text/x-handlebars-template">
+    <script id="template" type="text/x-handlebars-template">
       <div class="cd">
         <img src="{{poster}}" alt="">
         <h3>{{title}}</h3>
