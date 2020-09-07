@@ -7,15 +7,25 @@
     <title>ajax-dischi</title>
 </head>
 <body>
+  <header>
     <div class="container">
-        <h1>Lista</h1>
+      <img src="img/logo.png" alt="logo">
     </div>
+  </header>
+
+  <div class="cds-container container">
+    <!-- Disc template -->
+  </div>
 
     <!-- TEMPLATE -->
     <script id="entry-template" type="text/x-handlebars-template">
-        <div class="disco">
-
-        </div>
+      <div class="cd">
+        <img src="{{poster}}" alt="">
+        <h3>{{title}}</h3>
+        <span class="author">{{author}}</span>
+        <span>{{genre}}</span>
+        <span class="year">{{year}}</span>
+      </div>
     </script>
 
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
